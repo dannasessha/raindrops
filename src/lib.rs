@@ -1,6 +1,5 @@
 pub fn raindrops(n: u32) -> String {
-    let mut sound = String::from("");
-//"".to_string();
+    let mut sound = "".to_string();
 
     if n % 3 == 0 {
         sound.push_str("Pling");
